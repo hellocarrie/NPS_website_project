@@ -88,7 +88,10 @@ header a {
   margin-top: 30px;
   display: inline-block;
 }
-
+hr{
+  color: var(--primary-color);
+  size:75%;
+}
 footer {
   color: white;
   padding: 20px 0;
@@ -122,7 +125,7 @@ footer li{
 }
 
 section .secondary {
-  background-color: aqua;
+ 
   padding: 10px 0px;
 }
 
@@ -156,6 +159,7 @@ section .secondary {
   color: var(--secondary-color);
 }
 
+
 .highlight-text{
   color: var(--secondary-color);
   font-weight: 600;
@@ -176,5 +180,8 @@ section .secondary {
   }
   section {
     padding: 30px;
+  }
+  blockquote{
+    size:100%;
   }
 }
