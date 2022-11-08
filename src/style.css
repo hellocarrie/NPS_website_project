@@ -33,6 +33,7 @@ main {
 }
 main img {
   filter: saturate(75%);
+  box-shadow: -49px -35px rgb(219, 153, 0, 0.7);
 }
 main li {
   list-style: none;
@@ -51,7 +52,7 @@ main h3 {
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("../images/bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,18 +60,19 @@ header {
   padding: 200px 0px;
   filter:saturate(120%);
 }
+
 header h1 {
   font-weight: 500;
   line-height: 1.5;
   font-size: 60px;
   margin: 0;
-  color: white;
+  color: var(--primary-color);
 }
 header h2 {
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.5;
   font-size: 25px;
-  color: white;
+  color: var(--primary-color);
   margin: 0;
 }
 header a {
@@ -125,7 +127,7 @@ footer li{
 }
 
 section .secondary {
- 
+  background-color: #F8F8F8;
   padding: 10px 0px;
 }
 
@@ -159,7 +161,16 @@ section .secondary {
   color: var(--secondary-color);
 }
 
-
+.text-box{
+  background-color: rgb(248, 248, 248, 0.4);
+  padding: 40px 60px;
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  display:inline-block;
+  border-radius: 5px;
+  
+}
 .highlight-text{
   color: var(--secondary-color);
   font-weight: 600;
@@ -184,4 +195,22 @@ section .secondary {
   blockquote{
     size:100%;
   }
+  .text-box{
+  padding: 20px 30px;
+  width: 400px;
+  height: 200px;
+
+  }
+  header a{
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  }
+
+  main h3{
+    font-size: 24px;
+  }
+  main img{
+    width:75%;
+    height: 75%;
 }
